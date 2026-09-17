@@ -1,0 +1,13 @@
+{
+  "name": "zarpay-admin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Admin dashboard for Zarpay wallet backend",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node admin-server.js",
+    "dev": "node admin-server.js"
+  },
+  "keywords": ["wallet", "admin", "dashboard", "ledger"]
+}
